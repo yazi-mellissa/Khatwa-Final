@@ -1,0 +1,6 @@
+services:
+- name: khatwa-api
+  type: web
+  env: node
+  buildCommand: npm install
+  startCommand: npm start
